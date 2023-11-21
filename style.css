@@ -32,7 +32,7 @@ main {
     width: 70%;
     margin: 80px auto;
     background-color: white;
-    padding: 15px 80px;
+    padding: 15px 0 15px 0;
     border-radius: 10px;
     box-sizing: border-box;
     color: rgb(78, 78, 78);
@@ -43,6 +43,8 @@ main {
 
 nav {
     margin-top: 10px;
+    padding-left: 50px;
+
 }
 
 
@@ -93,6 +95,8 @@ li {
 .listcontainer {
     border-top: 3px solid rgb(248, 248, 248);
     margin-top: 10px;
+    padding-left: 50px;
+
 }
 
 .titoli {
