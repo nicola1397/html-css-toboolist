@@ -71,6 +71,9 @@ nav {
 
 /* Liste */
 
+ul {
+    padding: 0;
+}
 li {
     margin: 0;
     font-size: 1.7rem;
@@ -93,31 +96,113 @@ li {
     list-style: none;
 }
 
-.check {
-    
+/* .check {
+    width: 40px;
     color: green;
+    border-radius: 50%;
+    border: 2px solid green;
+    vertical-align: bottom;
+    text-align: center;
+} */
+
+/* .cross {
+    width: 40px;
+    color: red;
+    border-radius: 50%;
+    border: 2px solid red;
+} */
+
+.check:before {
+    display: inline-block;
+    content: "\2713";
+    position: relative;
+    color: green;
+    width: 30px;
+    height: 30px;  
     border-radius: 50%;
     border: 2px solid green;
     vertical-align: middle;
     text-align: center;
-    margin-right: 20px;
-    width: 1.7rem;
-    height: 1.7rem;
+    margin-right: 10px;
+    align-content: center;
 
 }
 
-.cross {
+.cross:before {
+    display: inline-block;
+    content: "\2717";
+    position: relative;
     color: red;
+    width: 30px;
+    height: 30px;  
     border-radius: 50%;
     border: 2px solid red;
     vertical-align: middle;
     text-align: center;
-    margin-right: 20px;
-    width: 1.7rem;
-    height: 1.7rem;
-}
+    margin-right: 10px;
+    align-content: center;
 
+}
 
 
 /* Etichette */
 
+.tag {
+    color: white;
+    font-size: 1rem;
+}
+
+.editorial:before {    
+    background-color: dodgerblue;
+    content: "Editorial";
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.goals:before {
+    background-color: blueviolet;
+    content: "Q1 Goals";
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.recruit:before {
+    background-color: mediumseagreen;
+    content: "Recruiting";
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+
+.mobile:before {
+    background-color: orangered;
+    content: "Mobile";
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.website:before {
+    background-color: hotpink ;    
+    content: "Website";
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.sales:before {
+    background-color: palegreen;
+    content: "Sales";
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
