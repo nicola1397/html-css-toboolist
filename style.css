@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: lightgrey;
+}
+
+header {
+    height: 100px;    
+    box-sizing: border-box;
+    padding-left: 25px; 
+    background-color: white;
+    line-height: 100px;
+}
+
+header > * {
+    vertical-align: middle;
+}
+
+.logo {
+    height: 4rem;
+    
+}
+
+.logotype {
+    display: inline-block;
+    font-size: 3rem;
+    margin: 0;
+}
