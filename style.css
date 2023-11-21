@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    background-color: lightgrey;
+    background-color: rgb(248, 248, 248);
 }
 
 header {
@@ -35,7 +35,8 @@ main {
     padding: 15px 80px;
     border-radius: 10px;
     box-sizing: border-box;
-    color: rgb(27, 27, 27);
+    color: rgb(78, 78, 78);
+    font-weight: 400;
 }
 
 /* Pulsanti */
@@ -74,6 +75,7 @@ nav {
 ul {
     padding: 0;
 }
+
 li {
     margin: 0;
     font-size: 1.7rem;
@@ -81,8 +83,15 @@ li {
     line-height: 3rem;
 }
 
+.arrow:before {
+ content: "⯆";
+ font-size: 1rem;
+ vertical-align: middle;
+ line-height: 30px;
+}
+
 .listcontainer {
-    border-top: 3px solid lightgrey;
+    border-top: 3px solid rgb(248, 248, 248);
     margin-top: 10px;
 }
 
@@ -96,29 +105,15 @@ li {
     list-style: none;
 }
 
-/* .check {
-    width: 40px;
-    color: green;
-    border-radius: 50%;
-    border: 2px solid green;
-    vertical-align: bottom;
-    text-align: center;
-} */
-
-/* .cross {
-    width: 40px;
-    color: red;
-    border-radius: 50%;
-    border: 2px solid red;
-} */
-
 .check:before {
     display: inline-block;
     content: "\2713";
+    font-size: 1rem;
     position: relative;
     color: green;
-    width: 30px;
-    height: 30px;  
+    line-height: 20px;
+    width: 20px;
+    height: 20px;  
     border-radius: 50%;
     border: 2px solid green;
     vertical-align: middle;
@@ -131,19 +126,20 @@ li {
 .cross:before {
     display: inline-block;
     content: "\2717";
+    font-size: 1rem;
     position: relative;
     color: red;
-    width: 30px;
-    height: 30px;  
+    line-height: 20px;
+    width: 20px;
+    height: 20px;  
     border-radius: 50%;
     border: 2px solid red;
     vertical-align: middle;
     text-align: center;
     margin-right: 10px;
-    align-content: center;
+    
 
 }
-
 
 /* Etichette */
 
