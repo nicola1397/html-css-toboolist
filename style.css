@@ -1,9 +1,11 @@
+/* Impostazione sfondo */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     background-color: rgb(248, 248, 248);
 }
 
+/* Banner superiore */
 header {
     height: 125px;    
     box-sizing: border-box;
@@ -18,7 +20,6 @@ header > * {
 
 .logo {
     height: 6rem;
-    
 }
 
 .logotype {
@@ -28,6 +29,8 @@ header > * {
     font-weight: 900 ;
 }
 
+/* Body */
+/* main=wrapper */
 main {
     width: 70%;
     margin: 80px auto;
@@ -39,15 +42,14 @@ main {
     font-weight: 400;
 }
 
-/* Pulsanti */
+/* Barra navigazione */
 
 nav {
     margin-top: 10px;
     padding-left: 50px;
-
 }
 
-
+/* Pulsanti */
 .rounded {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
@@ -74,14 +76,19 @@ nav {
 
 /* Liste */
 
+h1 {
+    margin-bottom: 5px;
+}
+
 ul {
+    margin-top: 0;
     padding: 0;
 }
 
 li {
-    margin: 0;
+    margin-bottom: 20px;
     font-size: 1.7rem;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 3rem;
 }
 
@@ -113,13 +120,14 @@ li {
     display: inline-block;
     content: "\2713";
     font-size: 1rem;
+    font-weight: bolder;
     position: relative;
     color: green;
-    line-height: 20px;
-    width: 20px;
-    height: 20px;  
+    line-height: 25px;
+    width: 25px;
+    height: 25px;  
     border-radius: 50%;
-    border: 2px solid green;
+    border: 3px solid green;
     vertical-align: middle;
     text-align: center;
     margin-right: 10px;
@@ -131,13 +139,14 @@ li {
     display: inline-block;
     content: "\2717";
     font-size: 1rem;
+    font-weight: bolder;
     position: relative;
     color: red;
-    line-height: 20px;
-    width: 20px;
-    height: 20px;  
+    line-height: 25px;
+    width: 25px;
+    height: 25px;  
     border-radius: 50%;
-    border: 2px solid red;
+    border: 3px solid red;
     vertical-align: middle;
     text-align: center;
     margin-right: 10px;
@@ -150,14 +159,15 @@ li {
 .tag {
     color: white;
     font-size: 1rem;
+    font-weight: 500;
 }
 
 .editorial:before {    
     background-color: dodgerblue;
     content: "Editorial";
     box-sizing: border-box;
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 10px 17px;
+    border-radius: 17px;
     margin-left: 20px;
 }
 
@@ -165,8 +175,8 @@ li {
     background-color: blueviolet;
     content: "Q1 Goals";
     box-sizing: border-box;
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 10px 17px;
+    border-radius: 17px;
     margin-left: 20px;
 }
 
@@ -174,18 +184,17 @@ li {
     background-color: mediumseagreen;
     content: "Recruiting";
     box-sizing: border-box;
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 10px 17px;
+    border-radius: 17px;
     margin-left: 20px;
-
 }
 
 .mobile:before {
-    background-color: orangered;
+    background-color: orange;
     content: "Mobile";
     box-sizing: border-box;
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 10px 17px;
+    border-radius: 17px;
     margin-left: 20px;
 }
 
@@ -193,16 +202,21 @@ li {
     background-color: hotpink ;    
     content: "Website";
     box-sizing: border-box;
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 10px 17px;
+    border-radius: 17px;
     margin-left: 20px;
 }
 
 .sales:before {
-    background-color: palegreen;
+    background-color: yellowgreen;
     content: "Sales";
     box-sizing: border-box;
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 10px 17px;
+    border-radius: 17px;
     margin-left: 20px;
+}
+
+
+.valid {
+    margin-left: 50px;
 }
